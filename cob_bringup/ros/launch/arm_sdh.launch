@@ -1,0 +1,9 @@
+<launch>
+<!-- start bringup-->
+<include file="$(find cob_description)/ros/robots/upload_robot.launch"/>
+<include file="$(find cob_arm)/ros/launch/solo.launch"/>
+<include file="$(find cob_sdh)/ros/launch/sdh.launch"/>
+<include file="$(find cob_forcetorque)/ros/launch/cob3-2.launch"/>
+<include file="$(find cob_dashboard)/ros/launch/dashboard.launch"/>
+
+</launch>
